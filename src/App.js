@@ -50,8 +50,8 @@ function App() {
   };
 
   React.useEffect(() => {
-    //TODO: Load the model
-    loadModel();
+    //Load the model
+    return () => loadModel();
 
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
