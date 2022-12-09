@@ -8,6 +8,10 @@ This repo serves as an example of using TensorFlowJS to detect objects from a de
 - Install dependencies using `yarn`
 - Run locally using `yarn start`
 
+## Notes
+
+This method of object detection on a live webcam source is potentially very resource-intensive
+
 ## Resources
 
 This code was heavily referenced from [https://github.com/nicknochnack/ReactComputerVisionTemplate](https://github.com/nicknochnack/ReactComputerVisionTemplate).
